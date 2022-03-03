@@ -10,8 +10,8 @@
 </head>
 
 <body>
-
-    <div class=""topSection">
+    <!-- Add buttons to the top of the page for highscore button and time remaining countdown -->
+    <div class="topSection">
         </div class="topSectionChild">
             <button id="highscore">View Highscore</button>
         </div>
@@ -19,17 +19,52 @@
             <p id="timer">TIME REMAINING</p>
         </div>
     </div>
+    <!-- Opening display message and start button to launch quiz -->
     <div class="quizStart">
         <h1>Coding Quiz Challenge</h1>
-        <p>Please try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and time</p>
+        <p>Please try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and reduce your time.</p>
         <button id="StartBtn">Start Code Quiz</button>
     </div>
-    
-</body>
+    <!-- Added buttons for quiz answer selection -->
+    <div class="quizContainer">
+        <div id="questionContainer" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="answer-area">
+                <button class="btn-text" data-number="1">Answer 1</button>
+                <button class="btn-text" data-number="1">Answer 2</button>
+                <button class="btn-text" data-number="1">Answer 3</button>
+                <button class="btn-text" data-number="1">Answer 4</button>
+            </div>
+        </div>
+    </div>
+    <!-- Added section for user to input their information to track highscores -->
+    <div id="quizEnd" class="hide">
+        <h2 id="quizEndHeading"></h2>
+        <p id="quizEndScore"></p>
+        <form id="formContainer" class="hide">
+            <label id="labelName" for="initials">Enter Your Initials:</label>
+            <input type="text" id="initialName" name="initials">
+            <input type="submit" id="submitBtn" value="Submit">
+        </form>
+    </div>
+    <!-- This section will display all high scores at the end of the quiz -->
+    <div id="highScoreSection" class="hide">
+        <h2 id="highScoreHeading">Highscores</h2>
+        <div class="highscoreTitlesContainer">
+            <h3 class="highscoreTitles">Name</h3>
+            <h3 class="highScoreTitles">Score</h3>
+        </div>
+        <div class="highsocreList">
+        </div>
+        <!-- Provides the user the ability to go back or to clear all score history -->
+        <div class="highscoreBtnContainer">
+            <button id="highscoreReset">Go Back</button>
+            <button id="highscoreClear">Clear All Highscores</button>
+        </div>
+    </div>
 
-
-
-    </header>
     <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
