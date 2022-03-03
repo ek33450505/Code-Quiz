@@ -52,6 +52,11 @@ p {
     color: black;
 }
 
+#timer {
+    display: flex;
+    justify-content: right;
+}
+
 /* QUIZ CONTAINER START */
 
 .quizContainer {
@@ -118,5 +123,50 @@ p {
 }
 
 /* HIGHSCORE CONTAINER STYLES */
+
+#highscoreSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#highscores {
+    font-size: 20px
+}
+
+#highscoresHeader {
+    font-size: 18px;
+}
+
+.highscoreBtnContainer button {
+   border: solid 2px black;
+   padding: 5px 20px;
+   margin: 10px 10px;
+   background: blueviolet; 
+}
+
+.highscoreList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.highscoreList p {
+    padding: 0 20px;
+}
+
+.highscoreTitlesContainer {
+    display: flex;
+    justify-content: center;
+}
+.highscoreTitles {
+    padding: 0 20px;
+}
+
+.hide {
+    display: none;
+}
 
 
