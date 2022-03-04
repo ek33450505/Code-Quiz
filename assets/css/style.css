@@ -1,7 +1,7 @@
 /* APPLIED STYLES TO ENTIRE BODY */
 
 *{
-    background: whitesmoke;
+    background: lightgray;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -15,7 +15,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 5px;
 }
 
 .topSectionChild {
@@ -34,20 +34,21 @@ p {
     font-size: 20px;
     margin: 5px 0;
     line-height: 1.5;
+    margin: 20px;
 }
 
 .quizStart button {
     font-size: 22px;
     background-color: lightblue;
-    border: none;
+    border: solid 3px black;
     padding: 5px 10px;
     width: 26%;
     margin: auto;
 }
 
-#highschore {
-    background: green;
-    border: none;
+#highscore {
+    background: lightblue;
+    border: solid 2px black;
     padding: 7 px 3 px;
     color: black;
 }
@@ -71,7 +72,7 @@ p {
     font-size: 30px;
 }
 
-.answer-area {
+.answer-container {
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -79,12 +80,12 @@ p {
     margin-top: 25px;
 }
 
-.answer-area button {
+.answer-container button {
     margin: 10px 0;
     padding: 10px 5px;
-    border: none;
+    border: solid 2px black;
     background: black;
-    color: white;
+    color: lightblue;
 }
 
 #quizEnd {
@@ -136,7 +137,7 @@ p {
     font-size: 20px
 }
 
-#highscoresHeader {
+#highscoresHeading {
     font-size: 18px;
 }
 
@@ -154,7 +155,7 @@ p {
 }
 
 .highscoreList p {
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 .highscoreTitlesContainer {
@@ -162,11 +163,16 @@ p {
     justify-content: center;
 }
 .highscoreTitles {
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
-
+&:hover {
+border 2px solid transparent;
+color indigo;
+transform scale(1.05);
+will-change transform;
+}
