@@ -16,20 +16,20 @@
             <button id="highscore">View Highscore</button>
         </div>
         <div class="topSectionChild">
-            <p id="timer">TIME REMAINING</p>
+            <p id="timer">Time</p>
         </div>
     </div>
     <!-- Opening display message and start button to launch quiz -->
     <div class="quizStart">
         <h1>Coding Quiz Challenge</h1>
         <p>Please try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and reduce your time.</p>
-        <button id="StartBtn">Start Code Quiz</button>
+        <button id="startBtn">Start Code Quiz</button>
     </div>
     <!-- Added buttons for quiz answer selection -->
     <div class="quizContainer">
         <div id="questionContainer" class="hide">
             <div id="question">Question</div>
-            <div id="answer-buttons" class="answer-area">
+            <div id="answer-buttons" class="answer-container">
                 <button class="btn-text" data-number="1">Answer 1</button>
                 <button class="btn-text" data-number="1">Answer 2</button>
                 <button class="btn-text" data-number="1">Answer 3</button>
@@ -44,12 +44,12 @@
         <form id="formContainer" class="hide">
             <label id="labelName" for="initials">Enter Your Initials:</label>
             <input type="text" id="initialName" name="initials">
-            <input type="submit" id="submitBtn" value="Submit">
+            <input type="submit" id="subBtn" value="Submit">
         </form>
     </div>
     <!-- This section will display all high scores at the end of the quiz -->
     <div id="highscoreSection" class="hide">
-        <h2 id="highscoreHeader">High Scores</h2>
+        <h2 id="highscoreHeading">High Scores</h2>
         <div class="highscoreTitlesContainer">
             <h3 class="highscoreTitles">Name</h3>
             <h3 class="highScoreTitles">Score</h3>
@@ -63,8 +63,7 @@
         </div>
     </div>
 
-    <script src="./assets/js/script.js"></script>
-
+    <script src="assets/java/script.js"></script>
 </body>
 
 </html>
