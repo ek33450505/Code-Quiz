@@ -1,7 +1,7 @@
 /* APPLIED STYLES TO ENTIRE BODY */
 
 *{
-    background: lightgray;
+    background: whitesmoke;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -75,7 +75,7 @@ p {
 .answer-container {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 40%;
     margin: auto;
     margin-top: 25px;
 }
@@ -84,8 +84,8 @@ p {
     margin: 10px 0;
     padding: 10px 5px;
     border: solid 2px black;
-    background: black;
-    color: lightblue;
+    background: darkcyan;
+    color: black;
 }
 
 #quizEnd {
@@ -168,11 +168,4 @@ p {
 
 .hide {
     display: none !important;
-}
-
-&:hover {
-border 2px solid transparent;
-color indigo;
-transform scale(1.05);
-will-change transform;
 }
