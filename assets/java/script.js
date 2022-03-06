@@ -112,7 +112,7 @@ function submitAnswer(e) {
     } else {
         console.log('incorrect answer');
         generateQuestions();
-        timer -= 5;
+        timer -= 10;
         window.alert('You have answered incorrectly!');
     }
 }
