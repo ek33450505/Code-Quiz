@@ -12,7 +12,7 @@ The purpose of this project was to create a time based multiple choice coding qu
 ![Screenshot 2022-03-04 203604](https://user-images.githubusercontent.com/97137083/156905910-ad080198-bb35-45c9-bc7c-49b7e1aedb4f.png)
 
 ## Links
-Deployed Application: 
+Deployed Application: https://ek33450505.github.io/Code-Quiz/
 
 Github Repository: https://github.com/ek33450505/Code-Quiz
 
